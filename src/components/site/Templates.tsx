@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import classic from "@/assets/template-classicc.jpg";
+import classic from "@/assets/turki.png";
 import luxury from "@/assets/template-luxury.jpg";
-import modern from "@/assets/template-modern.jpg";
+import modern from "@/assets/template-classicc.jpg";
 import engagement from "@/assets/template-engagement.jpg";
 import henna from "@/assets/template-henna.jpg";
 import nikah from "@/assets/template-nikah.jpg";
@@ -22,7 +22,7 @@ const templates = [
     name: "Maison",
     category: "Lüks Düğün",
     description: "Mermer dokular, altın varak süslemeler ve editoryal bir his.",
-    img: luxury,
+    img: modern,
     demo: "#",
   }
 ];
