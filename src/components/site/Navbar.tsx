@@ -34,7 +34,7 @@ export function Navbar() {
             <Heart className="w-4 h-4 text-gold" strokeWidth={1.5} />
           </span>
           <span className="font-serif text-xl tracking-wide text-foreground">
-            Davetiye<span className="text-gold">.</span>Studio
+            ER<span className="text-gold"></span>Production
           </span>
         </a>
 

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import classic from "@/assets/template-classic.jpg";
+import classic from "@/assets/template-classicc.jpg";
 import luxury from "@/assets/template-luxury.jpg";
 import modern from "@/assets/template-modern.jpg";
 import engagement from "@/assets/template-engagement.jpg";
@@ -16,7 +16,7 @@ const templates = [
     category: "Klasik Düğün",
     description: "Altın detaylar ve zarif serif tipografi ile zamansız bir klasik.",
     img: classic,
-    demo: "#",
+    demo: "https://weddydev22.netlify.app/",
   },
   {
     name: "Maison",
@@ -24,35 +24,7 @@ const templates = [
     description: "Mermer dokular, altın varak süslemeler ve editoryal bir his.",
     img: luxury,
     demo: "#",
-  },
-  {
-    name: "Nova",
-    category: "Modern Düğün",
-    description: "Minimalist düzen, geniş tipografi ve sade renk paleti.",
-    img: modern,
-    demo: "#",
-  },
-  {
-    name: "Rosé",
-    category: "Nişan Davetiyesi",
-    description: "Pudra tonları ve sulu boya çiçeklerle romantik bir dokunuş.",
-    img: engagement,
-    demo: "#",
-  },
-  {
-    name: "Heves",
-    category: "Kına Gecesi",
-    description: "Bordo ve altın motiflerle geleneksel zarafetin modern yorumu.",
-    img: henna,
-    demo: "#",
-  },
-  {
-    name: "Sade",
-    category: "Nikah Davetiyesi",
-    description: "Lacivert ve altın, sade çizgiler, kurumsal bir şıklık.",
-    img: nikah,
-    demo: "#",
-  },
+  }
 ];
 
 export function Templates() {
