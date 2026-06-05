@@ -23,7 +23,7 @@ const templates = [
     category: "Lüks Düğün",
     description: "Mermer dokular, altın varak süslemeler ve editoryal bir his.",
     img: modern,
-    demo: "#",
+    demo: "https://weddydev23.netlify.app/",
   }
 ];
 

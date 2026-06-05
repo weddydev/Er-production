@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import heroImg from "@/assets/hero-wedding.jpg";
-import classic from "@/assets/template-classic.jpg";
-import luxury from "@/assets/template-luxury.jpg";
+import classic from "@/assets/turki.png";
+import luxury from "@/assets/template-classicc.jpg";
 import modern from "@/assets/template-modern.jpg";
 import engagement from "@/assets/template-engagement.jpg";
 import henna from "@/assets/template-henna.jpg";
@@ -15,34 +15,16 @@ const WHATSAPP =
 const slides = [
   {
     img: classic,
-    title: "Elara — Klasik Zarafet",
+    title: "Ztoyntop & Mtohmtot",
     subtitle: "Altın detaylar ve serif tipografi ile zamansız bir tasarım.",
-    demo: "#",
+    demo: "https://weddydev22.netlify.app/",
   },
   {
     img: luxury,
-    title: "Maison — Lüks Koleksiyon",
+    title: "Elif & Kerem",
     subtitle: "Mermer dokular ve altın varak ile editoryal bir his.",
-    demo: "#",
-  },
-  {
-    img: modern,
-    title: "Nova — Modern Minimalizm",
-    subtitle: "Sade çizgiler, geniş tipografi, ferah bir kompozisyon.",
-    demo: "#",
-  },
-  {
-    img: engagement,
-    title: "Rosé — Romantik Nişan",
-    subtitle: "Pudra tonları ve sulu boya çiçeklerle yumuşak bir dokunuş.",
-    demo: "#",
-  },
-  {
-    img: henna,
-    title: "Heves — Kına Gecesi",
-    subtitle: "Bordo ve altın motiflerle geleneksel zarafetin modern yorumu.",
-    demo: "#",
-  },
+    demo: "https://weddydev23.netlify.app/",
+  }
 ];
 
 export function Hero() {
